@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Box Example</title>
+  <title>Simple Search Box</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -33,12 +33,9 @@
 </head>
 <body>
   <h2>Search Box</h2>
-  
-  <!-- Replace the action URL with your Formspree endpoint -->
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <input type="text" name="search_query" placeholder="Enter your text..." required>
-    <button type="submit">Submit</button>
+  <form>
+    <input type="text" placeholder="Enter your text..." required>
+    <button type="submit">Search</button>
   </form>
-
 </body>
 </html>
